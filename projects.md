@@ -69,7 +69,6 @@ title: Projects
             {% endif %}
         {% endcapture %}
         {% assign thumbnail=thumbnail | strip %}
-
         {% if site.feed_show_excerpt == false %}
         {% if thumbnail != "" %}
         <a href="{{ project.url | absolute_url }}" aria-label="Thumbnail">
@@ -82,5 +81,4 @@ title: Projects
     {% endfor %}
   </div>
 </div>
-</body>
-</html>
+
