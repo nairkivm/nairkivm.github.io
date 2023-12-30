@@ -1,9 +1,12 @@
 ---
-layout: page
-title: Resume Data Engineer Mohamad Fikri Aulya Nor
+title: Fikri Aulyanor
+logo: /assets/img/headshot-circle.jpg
+#description: text below image
+show_downloads: true
+theme: jekyll-theme-minimal
 ---
 
-# Fikri Aulyanor 
+#  
 ### Data Engineer 
 
 <br>
