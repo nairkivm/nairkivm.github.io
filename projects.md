@@ -34,7 +34,7 @@ full-width: true
   width: 600px;
   height: 200px;
   margin: 10px;
-  padding: 10px;
+  padding-bottom: 100%; /* This creates a responsive square */
   border: 1px solid black;
   box-shadow: 5px 5px 5px grey;
 }
