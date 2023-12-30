@@ -8,7 +8,7 @@ full-width: true
 /* This is the CSS section */
 .container {
   /* This is the container for the whole page */
-  width: 300%;
+  width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -28,12 +28,19 @@ full-width: true
   margin: 10px;
   padding: 10px;
   scroll-behavior: smooth; /* This makes the scrolling smooth */
+  white-space: nowrap;
 }
 .project {
   /* This is the container for each project */
-  width: 600px;
+  width: 200px;
   height: 200px;
   margin: 10px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px grey;
+}
+.project: hover{
+  /* This is the container for each project */
+  background-color: #777;
   border: 1px solid black;
   box-shadow: 5px 5px 5px grey;
 }
@@ -71,8 +78,8 @@ full-width: true
         {% assign thumbnail=thumbnail | strip %}
         <a href="{{ project.url | absolute_url }}" aria-label="Thumbnail">
             <img src="{{ project.cover-img | absolute_url }}" alt="Project Thumbnail">
+            <p>{{ project.title | strip_html }}</p>
         </a>
-        <p>{{ project.title | strip_html }}</p>
     </div>
     {% endfor %}
   </div>
