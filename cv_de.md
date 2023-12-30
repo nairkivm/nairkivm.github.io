@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: page
 title: Resume Data Engineer Mohamad Fikri Aulya Nor
 ---
 
