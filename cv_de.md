@@ -4,15 +4,13 @@ full-width: false
 ---
 
 <div style="overflow: hidden;">
+    <img src="\assets\img\headshot-circle.jpg" width="170px" alt="nairkivm (Fikri Aulyanor)" style="float: right; border-radius: 50%;">
     <div>
         <h1 style="float: left; margin-right: 10px;">Fikri Aulyanor</h1>
         <br>
         <br>
-        <br>
-        <br>
         <h3 style="float: left; margin-right: 10px;">Data Engineer</h3>
     </div>
-    <img src="\assets\img\headshot-circle.jpg" width="200px" alt="nairkivm (Fikri Aulyanor)" style="float: right; border-radius: 50%;">
 </div>
 
 <br>
