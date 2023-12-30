@@ -9,7 +9,7 @@ h1 {
   margin-right: 10px;
 }
 
-h2 {
+h3 {
   float: left;
   margin-right: 10px;
 }
@@ -20,10 +20,14 @@ img {
 }
 </style>
 
-<h1>Fikri Aulyanor</h1>
-<br>
-<h3>Data Engineer</h3>
-<img src="\assets\img\headshot-circle.jpg" width="200px" alt="nairkivm (Fikri Aulyanor)">
+<div style="overflow: hidden;">
+    <div>
+        <h1>Fikri Aulyanor</h1>
+        <br>
+        <h3>Data Engineer</h3>
+    </div>
+    <img src="\assets\img\headshot-circle.jpg" width="200px" alt="nairkivm (Fikri Aulyanor)">
+</div>
 
 <br>
 
