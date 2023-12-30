@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+full-width: true
 ---
 
 <style>
@@ -36,8 +37,6 @@ title: Projects
   padding: 10px;
   border: 1px solid black;
   box-shadow: 5px 5px 5px grey;
-  padding-bottom: 100%; /* This creates a responsive square */
-  position: relative;
 }
 .project img {
   /* This is the image for each project */
