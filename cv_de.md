@@ -19,7 +19,6 @@ img {
   border-radius: 50%;
 }
 </style>
-</head>
 
 <h1>Fikri Aulyanor</h1>
 <h3>Data Engineer</h3>
