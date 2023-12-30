@@ -20,7 +20,6 @@ img {
 }
 </style>
 </head>
-<body>
 
 <h1>Fikri Aulyanor</h1>
 <h3>Data Engineer</h3>
