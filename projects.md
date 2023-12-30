@@ -74,7 +74,7 @@ title: Projects
         <a href="{{ project.url | absolute_url }}" aria-label="Thumbnail">
             <img src="{{ thumbnail | absolute_url }}" alt="Project Thumbnail">
         </a>
-        <p>{{ post.title }}</p>
+        <p>{{ project.title | strip_html }}</p>
         {% endif %}
         {% endif %}
     </div>
