@@ -29,17 +29,15 @@ title: Resume Data Engineer Mohamad Fikri Aulya Nor
 <br>
 
 <style>
-.connect-info { padding-left: 0.2; display: inline-block;}
-img { float: left; display: inline-block;}
+.connect-info { padding-left: 0.2; }
+img { float: left; }
 </style>
 
 ---
 
 _Data Engineer with expertise in PostgreSQL, Python (Pandas), AWS services, Metabase, and bash scripting. Skilled in transforming spreadsheet-based database into efficient PostgreSQL systems and building data pipelines. Collaborative team player with a strong focus on aligning technical solutions with business needs._
 
----
-
-#### Technical Skills: 
+##### Technical Skills: 
 <img align="left" alt="Google Sheets" width="23px" src="https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" title="Google Sheets" style="padding-right:10px;" />
 <img align="left" alt="PostgreSQL" width="30px" src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" title="PostgreSQL" style="padding-right:10px;" />
 <img align="left" alt="Python" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png?20100317150552"  title="Python" style="padding-right:10px;" />
@@ -55,6 +53,8 @@ _Data Engineer with expertise in PostgreSQL, Python (Pandas), AWS services, Meta
 <!-- <img align="left" alt="AWS Simple Storage Service" width="30px" src="\assets\img\aws\Arch_Amazon-Simple-Storage-Service_64@5x.png" title="AWS Simple Storage Service" style="padding-right:10px;" />
 <img align="left" alt="AWS CloudWatch" width="30px" src="\assets\img\aws\Arch_Amazon-CloudWatch_64@5x.png" title="AWS CloudWatch" style="padding-right:10px;" /> -->
 
+<br />
+
 ---
 
 ## Education
@@ -66,6 +66,7 @@ Bachelor Degree in Astronomy | 3.55/4.00
 
 ## Work Experience
 **Data Engineer @ [UENA (PT Ujirasa Eka Nagari)](https://uenafood.com/) - Jakarta, Indonesia (_Feb 2023-Present_)**
+
 - Designing a data structures for the company’s data warehouse in a relational database system (PostgreSQL) from previously multiple spreadsheet files or third-party platform migrations
 - Building an ETL data pipeline in Python: extracting data from various data source using APIs, transforming the data using Pandas module, and loading into the database using Python-SQL integrator
 - Setting up the automation for the data pipeline using Docker container, scheduling it regularly using AWS ECS, monitoring it via AWS CloudWatch, and creating alert notification via messaging apps (WABA, Slack)
