@@ -3,7 +3,12 @@ layout: minimal
 title: Resume Data Engineer Mohamad Fikri Aulya Nor
 ---
 
-# Fikri Aulyanor | Data Engineer 
+# Fikri Aulyanor 
+### Data Engineer 
+
+<br>
+
+---
 
 <div style="overflow: hidden;">
     <div class="connect-info" style="float: left; padding-right: 20px;">
@@ -28,8 +33,6 @@ title: Resume Data Engineer Mohamad Fikri Aulya Nor
     </div>
 </div>
 
-<br>
-
 ---
 
 _Data Engineer with expertise in PostgreSQL, Python (Pandas), AWS services, Metabase, and bash scripting. Skilled in transforming spreadsheet-based database into efficient PostgreSQL systems and building data pipelines. Collaborative team player with a strong focus on aligning technical solutions with business needs._
@@ -50,7 +53,11 @@ _Data Engineer with expertise in PostgreSQL, Python (Pandas), AWS services, Meta
 <!-- <img align="left" alt="AWS Simple Storage Service" width="30px" src="\assets\img\aws\Arch_Amazon-Simple-Storage-Service_64@5x.png" title="AWS Simple Storage Service" style="padding-right:10px;" />
 <img align="left" alt="AWS CloudWatch" width="30px" src="\assets\img\aws\Arch_Amazon-CloudWatch_64@5x.png" title="AWS CloudWatch" style="padding-right:10px;" /> -->
 
-<br />
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<br>
 
 ---
 
