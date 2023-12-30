@@ -57,7 +57,7 @@ title: Projects
     {% for project in site.projects %}
     <div class="project">
         <span>projecttttt</span> 
-        <span> {{ project }} </span> 
+        <span> {{ project.title }} </span> 
         {%- capture thumbnail -%}
             {% if project.thumbnail-img %}
                 {{ project.thumbnail-img }}
