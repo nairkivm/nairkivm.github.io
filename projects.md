@@ -31,7 +31,7 @@ full-width: true
 }
 .project {
   /* This is the container for each project */
-  width: 400px;
+  width: 600px;
   height: 200px;
   margin: 10px;
   padding: 10px;
