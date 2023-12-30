@@ -23,7 +23,7 @@ full-width: true
   /* This is the container for the projects */
   display: flex; /* This makes the projects align horizontally */
   overflow-x: auto; /* This makes the projects scrollable horizontally */
-  width: 100%;
+  width: 300%;
   height: 300px;
   margin: 10px;
   padding: 10px;
@@ -34,7 +34,6 @@ full-width: true
   width: 600px;
   height: 200px;
   margin: 10px;
-  padding-bottom: 100%; /* This creates a responsive square */
   border: 1px solid black;
   box-shadow: 5px 5px 5px grey;
 }
