@@ -50,16 +50,12 @@ title: Projects
 }
 </style>
 
-
-
-
-
-
 <div class="container">
   <h1 class="title">Projects</h1>
   <div class="projects">
     <!-- This is where you add your projects -->
     {% for project in site.projects %}
+    <div class="project">
         {%- capture thumbnail -%}
             {% if project.thumbnail-img %}
                 {{ project.thumbnail-img }}
@@ -76,27 +72,13 @@ title: Projects
 
         {% if site.feed_show_excerpt == false %}
         {% if thumbnail != "" %}
-
-        <div class="project">
-        <img src="" alt="Project 1">
-        <p>Project 1</p>
-        </div>
-        <div class="project">
-        <img src="project2.jpg" alt="Project 2">
-        <p>Project 2</p>
-        </div>
-        <div class="project">
-        <img src="project3.jpg" alt="Project 3">
-        <p>Project 3</p>
-        </div>
-        <div class="project">
-        <img src="project4.jpg" alt="Project 4">
-        <p>Project 4</p>
-        </div>
-        <div class="project">
-        <img src="project5.jpg" alt="Project 5">
-        <p>Project 5</p>
-        </div>
+        <a href="{{ project.url | absolute_url }}" aria-label="Thumbnail">
+            <img src="{{ thumbnail | absolute_url }}" alt="Project Thumbnail">
+        </a>
+        <p>{{ post.title }}</p>
+        {% endif %}
+        {% endif %}
+    </div>
     {% endfor %}
   </div>
 </div>
