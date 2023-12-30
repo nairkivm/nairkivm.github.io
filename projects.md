@@ -8,7 +8,7 @@ full-width: true
 /* This is the CSS section */
 .container {
   /* This is the container for the whole page */
-  width: 100%;
+  width: 300%;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -23,7 +23,7 @@ full-width: true
   /* This is the container for the projects */
   display: flex; /* This makes the projects align horizontally */
   overflow-x: auto; /* This makes the projects scrollable horizontally */
-  width: 300%;
+  width: 100%;
   height: 300px;
   margin: 10px;
   padding: 10px;
