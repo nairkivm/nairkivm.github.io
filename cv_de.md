@@ -3,30 +3,16 @@ layout: minimal
 full-width: false
 ---
 
-<style>
-h1 {
-  float: left;
-  margin-right: 10px;
-}
-
-h3 {
-  float: left;
-  margin-right: 10px;
-}
-
-img {
-  float: right;
-  border-radius: 50%;
-}
-</style>
-
 <div style="overflow: hidden;">
     <div>
-        <h1>Fikri Aulyanor</h1>
+        <h1 style="float: left; margin-right: 10px;">Fikri Aulyanor</h1>
         <br>
-        <h3>Data Engineer</h3>
+        <br>
+        <br>
+        <br>
+        <h3 style="float: left; margin-right: 10px;">Data Engineer</h3>
     </div>
-    <img src="\assets\img\headshot-circle.jpg" width="200px" alt="nairkivm (Fikri Aulyanor)">
+    <img src="\assets\img\headshot-circle.jpg" width="200px" alt="nairkivm (Fikri Aulyanor)" style="float: right; border-radius: 50%;">
 </div>
 
 <br>
