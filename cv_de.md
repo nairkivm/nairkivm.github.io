@@ -21,7 +21,7 @@ title: Resume Data Engineer Mohamad Fikri Aulya Nor
 &nbsp;&nbsp;
 <div class="bg-header">
     <a href="https://github.com/nairkivm" target="_blank">
-    <img alt="Github" width="20px" src="https://static-00.iconduck.com/assets.00/github-icon-512x512-61im4xuw.png" title="Github" style="padding-right:10px;" />
+    <img alt="Github" width="20px" src="https://static-00.iconduck.com/\assets.00/github-icon-512x512-61im4xuw.png" title="Github" style="padding-right:10px;" />
     nairkivm
     </a>
 </div>
@@ -44,14 +44,12 @@ _Data Engineer with expertise in PostgreSQL, Python (Pandas), AWS services, Meta
 <img align="left" alt="Bash" width="30px" src="https://linube.com/blog/wp-content/uploads/bash-logo.png"  title="Bash" style="padding-right:10px;" />
 <img align="left" alt="Docker" width="30px" src="https://iconape.com/wp-content/files/fr/370801/svg/docker-icon-logo-icon-png-svg.png" title="Docker" style="padding-right:10px;" />
 <img align="left" alt="Metabase" width="30px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/metabase_logo_icon_170959.png" title="Metabase" style="padding-right:10px;" />
-<!-- <img align="left" alt="AWS Elastic Container Registry" width="30px" src="assets\img\aws\Arch_Amazon-Elastic-Container-Registry_64@5x.png" title="AWS Elastic Container Registry" style="padding-right:10px;" /> -->
-<img align="left" alt="AWS Elastic Container Service" width="30px" src="assets\img\aws\Arch_Amazon-Elastic-Container-Service_64@5x.png" title="AWS Elastic Container Service" style="padding-right:10px;" />
-<img align="left" alt="AWS Relational Database Service" width="30px" src="assets\img\aws\Arch_Amazon-RDS_64@5x.png" title="AWS Relational Database Service" style="padding-right:10px;" />
-<img align="left" alt="AWS Lambda" width="30px" src="assets\img\aws\Arch_AWS-Lambda_64@5x.png" title="AWS Lambda" style="padding-right:10px;" />
-<!-- <img align="left" alt="AWS Simple Storage Service" width="30px" src="assets\img\aws\Arch_Amazon-Simple-Storage-Service_64@5x.png" title="AWS Simple Storage Service" style="padding-right:10px;" />
-<img align="left" alt="AWS CloudWatch" width="30px" src="assets\img\aws\Arch_Amazon-CloudWatch_64@5x.png" title="AWS CloudWatch" style="padding-right:10px;" /> -->
-
-<br>
+<!-- <img align="left" alt="AWS Elastic Container Registry" width="30px" src="\assets\img\aws\Arch_Amazon-Elastic-Container-Registry_64@5x.png" title="AWS Elastic Container Registry" style="padding-right:10px;" /> -->
+<img align="left" alt="AWS Elastic Container Service" width="30px" src="\assets\img\aws\Arch_Amazon-Elastic-Container-Service_64@5x.png" title="AWS Elastic Container Service" style="padding-right:10px;" />
+<img align="left" alt="AWS Relational Database Service" width="30px" src="\assets\img\aws\Arch_Amazon-RDS_64@5x.png" title="AWS Relational Database Service" style="padding-right:10px;" />
+<img align="left" alt="AWS Lambda" width="30px" src="\assets\img\aws\Arch_AWS-Lambda_64@5x.png" title="AWS Lambda" style="padding-right:10px;" />
+<!-- <img align="left" alt="AWS Simple Storage Service" width="30px" src="\assets\img\aws\Arch_Amazon-Simple-Storage-Service_64@5x.png" title="AWS Simple Storage Service" style="padding-right:10px;" />
+<img align="left" alt="AWS CloudWatch" width="30px" src="\assets\img\aws\Arch_Amazon-CloudWatch_64@5x.png" title="AWS CloudWatch" style="padding-right:10px;" /> -->
 
 ## Education
 **[Institut Teknologi Bandung](https://www.itb.ac.id/) - Bandung, Indonesia (_Jul 2017–Jul 2021_)** <br>
