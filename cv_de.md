@@ -21,8 +21,9 @@ img {
 </style>
 
 <h1>Fikri Aulyanor</h1>
+<br>
 <h3>Data Engineer</h3>
-<img src="\assets\img\headshot-circle.jpg" width="300px" alt="nairkivm (Fikri Aulyanor)">
+<img src="\assets\img\headshot-circle.jpg" width="200px" alt="nairkivm (Fikri Aulyanor)">
 
 <br>
 
