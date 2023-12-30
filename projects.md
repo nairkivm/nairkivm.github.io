@@ -56,6 +56,8 @@ title: Projects
     <!-- This is where you add your projects -->
     {% for project in site.projects %}
     <div class="project">
+        <span>projecttttt</span> 
+        <span> {{ project }} </span> 
         {%- capture thumbnail -%}
             {% if project.thumbnail-img %}
                 {{ project.thumbnail-img }}
