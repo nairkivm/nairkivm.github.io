@@ -21,7 +21,10 @@ author: nairkivm (Fikri Aulyanor)
 
 navbar-links:
   About Me: "aboutme"
-  CV: "cv"
+  CV: 
+    - Data Engineer: "cv_de"
+    - Data Analytics: "cv_da"
+  Projects: "projects"
 
 ################
 # --- Logo --- #
@@ -52,10 +55,10 @@ social-network-links:
   facebook: "Mohammad Fikri Aulya Nor"
   github: "nairkivm"
   twitter: "@nairkivm"
-  youtube: "Fikri Aulyanor"
+  # youtube: "Fikri Aulyanor"
   linkedin: "Fikri Aulyanor"
   instagram: "nairkivm"
-#  telephone: +14159998888
+  # telephone: +14159998888
   kaggle: "Fikri Aulyanor"
   hackerrank: "@mohfikri_aulyan1"
 
