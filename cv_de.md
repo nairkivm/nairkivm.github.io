@@ -3,8 +3,28 @@ layout: minimal
 full-width: false
 ---
 
-# Fikri Aulyanor
-### Data Engineer 
+<style>
+h1 {
+  float: left;
+  margin-right: 10px;
+}
+
+h2 {
+  float: left;
+  margin-right: 10px;
+}
+
+img {
+  float: right;
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+<h1>Fikri Aulyanor</h1>
+<h3>Data Engineer</h3>
+<img src="\assets\img\headshot-circle.jpg" alt="nairkivm (Fikri Aulyanor)">
 
 <br>
 
@@ -38,18 +58,18 @@ full-width: false
 _Data Engineer with expertise in PostgreSQL, Python (Pandas), AWS services, Metabase, and bash scripting. Skilled in transforming spreadsheet-based database into efficient PostgreSQL systems and building data pipelines. Collaborative team player with a strong focus on aligning technical solutions with business needs._
 
 ##### Technical Skills: 
-<img align="left" alt="Google Sheets" height="50px" src="https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" title="Google Sheets" style="padding-right:10px;" />
-<img align="left" alt="PostgreSQL" width="50px" src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" title="PostgreSQL" style="padding-right:10px;" />
-<img align="left" alt="Python" width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png?20100317150552"  title="Python" style="padding-right:10px;" />
-<img align="left" alt="Pandas" height="50px" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Pandas_mark.svg"  title="Pandas" style="padding-right:10px;" />
+<img align="left" alt="Google Sheets" height="40px" src="https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" title="Google Sheets" style="padding-right:10px;" />
+<img align="left" alt="PostgreSQL" width="40px" src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" title="PostgreSQL" style="padding-right:10px;" />
+<img align="left" alt="Python" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png?20100317150552"  title="Python" style="padding-right:10px;" />
+<img align="left" alt="Pandas" height="40px" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Pandas_mark.svg"  title="Pandas" style="padding-right:10px;" />
 <!-- <img align="left" alt="Linux" width="30px" src="https://www.pngall.com/wp-content/uploads/5/Linux-Logo-PNG-Download-Image.png"  title="Linux" style="padding-right:10px;" /> -->
-<img align="left" alt="Bash" width="50px" src="https://linube.com/blog/wp-content/uploads/bash-logo.png"  title="Bash" style="padding-right:10px;" />
-<img align="left" alt="Docker" width="50px" src="https://iconape.com/wp-content/files/fr/370801/svg/docker-icon-logo-icon-png-svg.png" title="Docker" style="padding-right:10px;" />
-<img align="left" alt="Metabase" width="50px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/metabase_logo_icon_170959.png" title="Metabase" style="padding-right:10px;" />
+<img align="left" alt="Bash" width="40px" src="https://linube.com/blog/wp-content/uploads/bash-logo.png"  title="Bash" style="padding-right:10px;" />
+<img align="left" alt="Docker" width="40px" src="https://iconape.com/wp-content/files/fr/370801/svg/docker-icon-logo-icon-png-svg.png" title="Docker" style="padding-right:10px;" />
+<img align="left" alt="Metabase" width="40px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/metabase_logo_icon_170959.png" title="Metabase" style="padding-right:10px;" />
 <!-- <img align="left" alt="AWS Elastic Container Registry" width="30px" src="\assets\img\aws\Arch_Amazon-Elastic-Container-Registry_64@5x.png" title="AWS Elastic Container Registry" style="padding-right:10px;" /> -->
-<img align="left" alt="AWS Elastic Container Service" width="50px" src="\assets\img\aws\Arch_Amazon-Elastic-Container-Service_64@5x.png" title="AWS Elastic Container Service" style="padding-right:10px;" />
-<img align="left" alt="AWS Relational Database Service" width="50px" src="\assets\img\aws\Arch_Amazon-RDS_64@5x.png" title="AWS Relational Database Service" style="padding-right:10px;" />
-<img align="left" alt="AWS Lambda" width="50px" src="\assets\img\aws\Arch_AWS-Lambda_64@5x.png" title="AWS Lambda" style="padding-right:10px;" />
+<img align="left" alt="AWS Elastic Container Service" width="40px" src="\assets\img\aws\Arch_Amazon-Elastic-Container-Service_64@5x.png" title="AWS Elastic Container Service" style="padding-right:10px;" />
+<img align="left" alt="AWS Relational Database Service" width="40px" src="\assets\img\aws\Arch_Amazon-RDS_64@5x.png" title="AWS Relational Database Service" style="padding-right:10px;" />
+<img align="left" alt="AWS Lambda" width="40px" src="\assets\img\aws\Arch_AWS-Lambda_64@5x.png" title="AWS Lambda" style="padding-right:10px;" />
 <!-- <img align="left" alt="AWS Simple Storage Service" width="30px" src="\assets\img\aws\Arch_Amazon-Simple-Storage-Service_64@5x.png" title="AWS Simple Storage Service" style="padding-right:10px;" />
 <img align="left" alt="AWS CloudWatch" width="30px" src="\assets\img\aws\Arch_Amazon-CloudWatch_64@5x.png" title="AWS CloudWatch" style="padding-right:10px;" /> -->
 
@@ -87,6 +107,6 @@ Bachelor Degree in Astronomy | 3.55/4.00
 - International Virtual Course on Astrostatistic and Machine Learning 2021 by ITB dan NARIT (Thailand) (2021)
 - Introduction to Data Analytics by RevoU (2022)
 - [LinkedIn Skill Badge for Microsoft Excels (2022)](https://www.linkedin.com/posts/activity-6997170259627585536-qmBc?utm_source=share&utm_medium=member_desktop)
-- [Sekolah Engineering \\- Trial Course | Pacmann.ai (2023)](https://sertifikat.pacmann.ai/bkEDZxws1yxhYsI)
-- [Free Course \\- Sekolah Data | Pacmann.ai (2023)](https://sertifikat.pacmann.ai/57tcFBsFXGljxZx)
+- [Sekolah Engineering \- Trial Course | Pacmann.ai (2023)](https://sertifikat.pacmann.ai/bkEDZxws1yxhYsI)
+- [Free Course \- Sekolah Data | Pacmann.ai (2023)](https://sertifikat.pacmann.ai/57tcFBsFXGljxZx)
 
