@@ -5,25 +5,27 @@ title: Resume Data Engineer Mohamad Fikri Aulya Nor
 
 # Fikri Aulyanor | Data Engineer 
 
-<div class="connect-info">
-    <a href="mailto:mohfikri.aulyanor@gmail.com" target="_blank">
-    <img alt="Email" width="25px" src="https://freepngimg.com/download/youtube/62519-icons-youtube-envelope-computer-mail-email.png" title="Email" style="padding-right:10px;" />
-    mohfikri.aulyanor@gmail.com
-    </a>
-</div>
-&nbsp;
-<div class="connect-info">
-    <a href="https://www.linkedin.com/in/fikri-aulyanor" target="_blank">
-    <img alt="LinkedIn" width="25px" src="https://cdn.onlinewebfonts.com/svg/img_465955.png" title="LinkedIn" style="padding-right:10px;" />
-    Fikri Aulyanor
-    </a>
-</div>
-&nbsp;
-<div class="connect-info">
-    <a href="https://github.com/nairkivm" target="_blank">
-    <img alt="Github" width="25px" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3231236/logo-github-icon-md.png" title="Github" style="padding-right:10px;" />
-    nairkivm
-    </a>
+<div style="overflow: hidden;">
+    <div class="connect-info">
+        <a href="mailto:mohfikri.aulyanor@gmail.com" target="_blank">
+        <img alt="Email" width="25px" src="https://freepngimg.com/download/youtube/62519-icons-youtube-envelope-computer-mail-email.png" title="Email" style="padding-right:10px;" />
+        mohfikri.aulyanor@gmail.com
+        </a>
+    </div>
+    &nbsp;
+    <div class="connect-info">
+        <a href="https://www.linkedin.com/in/fikri-aulyanor" target="_blank">
+        <img alt="LinkedIn" width="25px" src="https://cdn.onlinewebfonts.com/svg/img_465955.png" title="LinkedIn" style="padding-right:10px;" />
+        Fikri Aulyanor
+        </a>
+    </div>
+    &nbsp;
+    <div class="connect-info">
+        <a href="https://github.com/nairkivm" target="_blank">
+        <img alt="Github" width="25px" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3231236/logo-github-icon-md.png" title="Github" style="padding-right:10px;" />
+        nairkivm
+        </a>
+    </div>
 </div>
 
 <br>
