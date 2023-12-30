@@ -52,7 +52,7 @@ full-width: true
 </style>
 
 <div class="container">
-  <h1 class="title">Projects</h1>
+  <h1 class="title"></h1>
   <div class="projects">
     <!-- This is where you add your projects -->
     {% for project in site.projects %}
