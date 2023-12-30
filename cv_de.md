@@ -8,19 +8,19 @@ title: Resume Data Engineer Mohamad Fikri Aulya Nor
 <div style="overflow: hidden;">
     <div class="connect-info" style="float: left;">
         <a href="mailto:mohfikri.aulyanor@gmail.com" target="_blank">
-        <img alt="Email" width="25px" src="https://freepngimg.com/download/youtube/62519-icons-youtube-envelope-computer-mail-email.png" title="Email" style="padding-right:10px;" />
+        <img alt="Email" width="30px" src="https://freepngimg.com/download/youtube/62519-icons-youtube-envelope-computer-mail-email.png" title="Email" style="padding-right:10px;" />
         mohfikri.aulyanor@gmail.com
         </a>
     </div>
-    <div class="connect-info" style="float: left;">
+    <div class="connect-info" style="float: left; padding-left: `20px;">
         <a href="https://www.linkedin.com/in/fikri-aulyanor" target="_blank">
-        <img alt="LinkedIn" width="25px" src="https://cdn.onlinewebfonts.com/svg/img_465955.png" title="LinkedIn" style="padding-right:10px;" />
+        <img alt="LinkedIn" width="30px" src="https://cdn.onlinewebfonts.com/svg/img_465955.png" title="LinkedIn" style="padding-right:10px;" />
         Fikri Aulyanor
         </a>
     </div>
-    <div class="connect-info" style="float: left;">
+    <div class="connect-info" style="float: left; padding-left: `20px;">
         <a href="https://github.com/nairkivm" target="_blank">
-        <img alt="Github" width="25px" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3231236/logo-github-icon-md.png" title="Github" style="padding-right:10px;" />
+        <img alt="Github" width="30px" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3231236/logo-github-icon-md.png" title="Github" style="padding-right:10px;" />
         nairkivm
         </a>
     </div>
@@ -33,18 +33,18 @@ title: Resume Data Engineer Mohamad Fikri Aulya Nor
 _Data Engineer with expertise in PostgreSQL, Python (Pandas), AWS services, Metabase, and bash scripting. Skilled in transforming spreadsheet-based database into efficient PostgreSQL systems and building data pipelines. Collaborative team player with a strong focus on aligning technical solutions with business needs._
 
 ##### Technical Skills: 
-<img align="left" alt="Google Sheets" width="23px" src="https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" title="Google Sheets" style="padding-right:10px;" />
-<img align="left" alt="PostgreSQL" width="30px" src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" title="PostgreSQL" style="padding-right:10px;" />
+<img align="left" alt="Google Sheets" height="50px" src="https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" title="Google Sheets" style="padding-right:10px;" />
+<img align="left" alt="PostgreSQL" width="50px" src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" title="PostgreSQL" style="padding-right:10px;" />
 <img align="left" alt="Python" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png?20100317150552"  title="Python" style="padding-right:10px;" />
-<img align="left" alt="Pandas" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Pandas_mark.svg"  title="Pandas" style="padding-right:10px;" />
+<img align="left" alt="Pandas" height="50px" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Pandas_mark.svg"  title="Pandas" style="padding-right:10px;" />
 <!-- <img align="left" alt="Linux" width="30px" src="https://www.pngall.com/wp-content/uploads/5/Linux-Logo-PNG-Download-Image.png"  title="Linux" style="padding-right:10px;" /> -->
-<img align="left" alt="Bash" width="30px" src="https://linube.com/blog/wp-content/uploads/bash-logo.png"  title="Bash" style="padding-right:10px;" />
-<img align="left" alt="Docker" width="30px" src="https://iconape.com/wp-content/files/fr/370801/svg/docker-icon-logo-icon-png-svg.png" title="Docker" style="padding-right:10px;" />
-<img align="left" alt="Metabase" width="30px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/metabase_logo_icon_170959.png" title="Metabase" style="padding-right:10px;" />
+<img align="left" alt="Bash" width="50px" src="https://linube.com/blog/wp-content/uploads/bash-logo.png"  title="Bash" style="padding-right:10px;" />
+<img align="left" alt="Docker" width="50px" src="https://iconape.com/wp-content/files/fr/370801/svg/docker-icon-logo-icon-png-svg.png" title="Docker" style="padding-right:10px;" />
+<img align="left" alt="Metabase" width="50px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/metabase_logo_icon_170959.png" title="Metabase" style="padding-right:10px;" />
 <!-- <img align="left" alt="AWS Elastic Container Registry" width="30px" src="\assets\img\aws\Arch_Amazon-Elastic-Container-Registry_64@5x.png" title="AWS Elastic Container Registry" style="padding-right:10px;" /> -->
-<img align="left" alt="AWS Elastic Container Service" width="30px" src="\assets\img\aws\Arch_Amazon-Elastic-Container-Service_64@5x.png" title="AWS Elastic Container Service" style="padding-right:10px;" />
-<img align="left" alt="AWS Relational Database Service" width="30px" src="\assets\img\aws\Arch_Amazon-RDS_64@5x.png" title="AWS Relational Database Service" style="padding-right:10px;" />
-<img align="left" alt="AWS Lambda" width="30px" src="\assets\img\aws\Arch_AWS-Lambda_64@5x.png" title="AWS Lambda" style="padding-right:10px;" />
+<img align="left" alt="AWS Elastic Container Service" width="50px" src="\assets\img\aws\Arch_Amazon-Elastic-Container-Service_64@5x.png" title="AWS Elastic Container Service" style="padding-right:10px;" />
+<img align="left" alt="AWS Relational Database Service" width="50px" src="\assets\img\aws\Arch_Amazon-RDS_64@5x.png" title="AWS Relational Database Service" style="padding-right:10px;" />
+<img align="left" alt="AWS Lambda" width="50px" src="\assets\img\aws\Arch_AWS-Lambda_64@5x.png" title="AWS Lambda" style="padding-right:10px;" />
 <!-- <img align="left" alt="AWS Simple Storage Service" width="30px" src="\assets\img\aws\Arch_Amazon-Simple-Storage-Service_64@5x.png" title="AWS Simple Storage Service" style="padding-right:10px;" />
 <img align="left" alt="AWS CloudWatch" width="30px" src="\assets\img\aws\Arch_Amazon-CloudWatch_64@5x.png" title="AWS CloudWatch" style="padding-right:10px;" /> -->
 
