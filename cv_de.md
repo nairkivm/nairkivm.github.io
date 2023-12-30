@@ -21,7 +21,7 @@ title: Resume Data Engineer Mohamad Fikri Aulya Nor
 &nbsp;&nbsp;
 <div class="bg-header">
     <a href="https://github.com/nairkivm" target="_blank">
-    <img alt="Github" width="20px" src="https://static-00.iconduck.com/\assets.00/github-icon-512x512-61im4xuw.png" title="Github" style="padding-right:10px;" />
+    <img alt="Github" width="20px" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3231236/logo-github-icon-md.png" title="Github" style="padding-right:10px;" />
     nairkivm
     </a>
 </div>
@@ -50,6 +50,8 @@ _Data Engineer with expertise in PostgreSQL, Python (Pandas), AWS services, Meta
 <img align="left" alt="AWS Lambda" width="30px" src="\assets\img\aws\Arch_AWS-Lambda_64@5x.png" title="AWS Lambda" style="padding-right:10px;" />
 <!-- <img align="left" alt="AWS Simple Storage Service" width="30px" src="\assets\img\aws\Arch_Amazon-Simple-Storage-Service_64@5x.png" title="AWS Simple Storage Service" style="padding-right:10px;" />
 <img align="left" alt="AWS CloudWatch" width="30px" src="\assets\img\aws\Arch_Amazon-CloudWatch_64@5x.png" title="AWS CloudWatch" style="padding-right:10px;" /> -->
+
+---
 
 ## Education
 **[Institut Teknologi Bandung](https://www.itb.ac.id/) - Bandung, Indonesia (_Jul 2017–Jul 2021_)** <br>
