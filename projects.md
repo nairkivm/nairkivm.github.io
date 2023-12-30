@@ -32,15 +32,9 @@ full-width: true
 }
 .project {
   /* This is the container for each project */
-  width: 200px;
+  width: 600px;
   height: 200px;
   margin: 10px;
-  border: 1px solid black;
-  box-shadow: 5px 5px 5px grey;
-}
-.project: hover{
-  /* This is the container for each project */
-  background-color: #777;
   border: 1px solid black;
   box-shadow: 5px 5px 5px grey;
 }
@@ -78,8 +72,8 @@ full-width: true
         {% assign thumbnail=thumbnail | strip %}
         <a href="{{ project.url | absolute_url }}" aria-label="Thumbnail">
             <img src="{{ project.cover-img | absolute_url }}" alt="Project Thumbnail">
-            <p>{{ project.title | strip_html }}</p>
         </a>
+        <p>{{ project.title | strip_html }}</p>
     </div>
     {% endfor %}
   </div>
