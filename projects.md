@@ -56,8 +56,21 @@ title: Projects
     <!-- This is where you add your projects -->
     {% for project in site.projects %}
     <div class="project">
+        {%- capture thumbnail -%}
+            {% if project.thumbnail-img %}
+                {{ project.thumbnail-img }}
+            {% elsif project.cover-img %}
+                {% if project.cover-img.first %}
+                    {{ project.cover-img[0].first.first }}
+                {% else %}
+                    {{ project.cover-img }}
+                {% endif %}
+            {% else %}
+            {% endif %}
+        {% endcapture %}
+        {% assign thumbnail=thumbnail | strip %}
         <a href="{{ project.url | absolute_url }}" aria-label="Thumbnail">
-            <img src="{{ project.cover-img[0].first.first | absolute_url }}" alt="Project Thumbnail">
+            <img src="{{ project.cover-img | absolute_url }}" alt="Project Thumbnail">
         </a>
         <p>{{ project.title | strip_html }}</p>
     </div>
