@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "#003 : Order Form"
-cover-img: assets/img/project-003/_c855bc13-61c8-4a86-be2b-7835b9f5f03e.png
+cover-img: /assets/img/project-003/_c855bc13-61c8-4a86-be2b-7835b9f5f03e.png
 ---
 
 In this project, I want to implement not only advanced spreadsheet formulas, but also [Google App Scripts](https://www.google.com/script/start/) in data operations. In simple terms, it is a tool that allows you to write code based on JavaScript that interacts with Google Workspace applications like Google Sheets, Google Docs, and Google Forms. One of many use case to implement Google App Script is making a form, directly in a Google Sheet file. Let's say that I have an Indonesian-traditional cake store and I want to make the order form goes like this.
