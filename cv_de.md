@@ -5,35 +5,39 @@ title: Resume Data Engineer Mohamad Fikri Aulya Nor
 
 # Fikri Aulyanor | Data Engineer 
 
-<div class="bg-header">
+<div class="connect-info">
     <a href="mailto:mohfikri.aulyanor@gmail.com" target="_blank">
-    <img alt="Email" width="20px" src="https://freepngimg.com/download/youtube/62519-icons-youtube-envelope-computer-mail-email.png" title="Email" style="padding-right:10px;" />
+    <img alt="Email" width="25px" src="https://freepngimg.com/download/youtube/62519-icons-youtube-envelope-computer-mail-email.png" title="Email" style="padding-right:10px;" />
     mohfikri.aulyanor@gmail.com
     </a>
 </div>
-&nbsp;&nbsp;
-<div class="bg-header">
+&nbsp;
+<div class="connect-info">
     <a href="https://www.linkedin.com/in/fikri-aulyanor" target="_blank">
-    <img alt="LinkedIn" width="20px" src="https://cdn.onlinewebfonts.com/svg/img_465955.png" title="LinkedIn" style="padding-right:10px;" />
+    <img alt="LinkedIn" width="25px" src="https://cdn.onlinewebfonts.com/svg/img_465955.png" title="LinkedIn" style="padding-right:10px;" />
     Fikri Aulyanor
     </a>
 </div>
-&nbsp;&nbsp;
-<div class="bg-header">
+&nbsp;
+<div class="connect-info">
     <a href="https://github.com/nairkivm" target="_blank">
-    <img alt="Github" width="20px" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3231236/logo-github-icon-md.png" title="Github" style="padding-right:10px;" />
+    <img alt="Github" width="25px" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3231236/logo-github-icon-md.png" title="Github" style="padding-right:10px;" />
     nairkivm
     </a>
 </div>
 
+<br>
+
 <style>
-.bg-header { padding-left: 0.2; display: inline-block;}
+.connect-info { padding-left: 0.2; display: inline-block;}
 img { float: left; display: inline-block;}
 </style>
 
 ---
 
 _Data Engineer with expertise in PostgreSQL, Python (Pandas), AWS services, Metabase, and bash scripting. Skilled in transforming spreadsheet-based database into efficient PostgreSQL systems and building data pipelines. Collaborative team player with a strong focus on aligning technical solutions with business needs._
+
+---
 
 #### Technical Skills: 
 <img align="left" alt="Google Sheets" width="23px" src="https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" title="Google Sheets" style="padding-right:10px;" />
@@ -54,6 +58,7 @@ _Data Engineer with expertise in PostgreSQL, Python (Pandas), AWS services, Meta
 ---
 
 ## Education
+
 **[Institut Teknologi Bandung](https://www.itb.ac.id/) - Bandung, Indonesia (_Jul 2017–Jul 2021_)** <br>
 Bachelor Degree in Astronomy | 3.55/4.00
 - LAPAN Internship (Research Program) participant (_Jul-Aug 2020_)
