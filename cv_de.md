@@ -12,13 +12,15 @@ title: Resume Data Engineer Mohamad Fikri Aulya Nor
         mohfikri.aulyanor@gmail.com
         </a>
     </div>
-    <div class="connect-info" style="float: left; padding-left: `20px;">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="connect-info" style="float: left;">
         <a href="https://www.linkedin.com/in/fikri-aulyanor" target="_blank">
         <img alt="LinkedIn" width="30px" src="https://cdn.onlinewebfonts.com/svg/img_465955.png" title="LinkedIn" style="padding-right:10px;" />
         Fikri Aulyanor
         </a>
     </div>
-    <div class="connect-info" style="float: left; padding-left: `20px;">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="connect-info" style="float: left;">
         <a href="https://github.com/nairkivm" target="_blank">
         <img alt="Github" width="30px" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3231236/logo-github-icon-md.png" title="Github" style="padding-right:10px;" />
         nairkivm
@@ -35,7 +37,7 @@ _Data Engineer with expertise in PostgreSQL, Python (Pandas), AWS services, Meta
 ##### Technical Skills: 
 <img align="left" alt="Google Sheets" height="50px" src="https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" title="Google Sheets" style="padding-right:10px;" />
 <img align="left" alt="PostgreSQL" width="50px" src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" title="PostgreSQL" style="padding-right:10px;" />
-<img align="left" alt="Python" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png?20100317150552"  title="Python" style="padding-right:10px;" />
+<img align="left" alt="Python" width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png?20100317150552"  title="Python" style="padding-right:10px;" />
 <img align="left" alt="Pandas" height="50px" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Pandas_mark.svg"  title="Pandas" style="padding-right:10px;" />
 <!-- <img align="left" alt="Linux" width="30px" src="https://www.pngall.com/wp-content/uploads/5/Linux-Logo-PNG-Download-Image.png"  title="Linux" style="padding-right:10px;" /> -->
 <img align="left" alt="Bash" width="50px" src="https://linube.com/blog/wp-content/uploads/bash-logo.png"  title="Bash" style="padding-right:10px;" />
