@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "#001 : European History Viewer"
-cover-img: /assets/img/project-001/GAjB3zba0AA8Yns.jpeg
+cover-img: https://genealogy.webonizer.net/media/1/image/jpeg/original/17_europe_13th_century.jpg
 ---
 
 I’ve been playing a lot of [Rise of Nations](https://en.wikipedia.org/wiki/Rise_of_Nations) lately, and it’s gotten me interested in world history, particularly the European. I also wanted to show off my data skills, so I made a cool thing called the European History Viewer. It’s a dashboard that shows you what happened in Europe over time and where the event(s) took place, and I got all the data from [Wikipedia](https://en.wikipedia.org/wiki/History_of_Europe). Pretty neat, huh? 😎
