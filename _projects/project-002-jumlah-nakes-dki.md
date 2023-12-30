@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "#002 : Number of Medical Workers in Jakarta"
-cover-img: "/assets/img/project-002/_9170d6e8-807a-40c7-9729-d317fe061c28.png"
+cover-img: /assets/img/project-002/nakes-bing-illustration.png
 ---
 
 This project is similar project with [project #001](https://nairkivm.github.io/projects/project-001-european-history-viewer), but it's more simple and straightforward. I've made a dashboard that contains a _filter view_ and a simple line chart that shows the numbers of medical workes in Jakarta, Indonesia.
