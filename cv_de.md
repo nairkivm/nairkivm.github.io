@@ -16,8 +16,6 @@ full-width: false
     </div>
 </div>
 
-<br>
-
 ---
 
 <div style="overflow: hidden;">
@@ -42,6 +40,8 @@ full-width: false
         </a>
     </div>
 </div>
+
+<br>
 
 ---
 
@@ -97,6 +97,6 @@ Bachelor Degree in Astronomy | 3.55/4.00
 - International Virtual Course on Astrostatistic and Machine Learning 2021 by ITB dan NARIT (Thailand) (2021)
 - Introduction to Data Analytics by RevoU (2022)
 - [LinkedIn Skill Badge for Microsoft Excels (2022)](https://www.linkedin.com/posts/activity-6997170259627585536-qmBc?utm_source=share&utm_medium=member_desktop)
-- [Sekolah Engineering \- Trial Course | Pacmann.ai (2023)](https://sertifikat.pacmann.ai/bkEDZxws1yxhYsI)
-- [Free Course \- Sekolah Data | Pacmann.ai (2023)](https://sertifikat.pacmann.ai/57tcFBsFXGljxZx)
+- [Sekolah Engineering \- Trial Course \| Pacmann.ai (2023)](https://sertifikat.pacmann.ai/bkEDZxws1yxhYsI)
+- [Free Course \- Sekolah Data \| Pacmann.ai (2023)](https://sertifikat.pacmann.ai/57tcFBsFXGljxZx)
 
