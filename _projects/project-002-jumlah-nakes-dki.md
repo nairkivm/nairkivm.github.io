@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "#002 : Number of Medical Workers in Jakarta"
+title: "#002 : Medical Workers in Jakarta"
 cover-img: /assets/img/project-002/nakes-bing-illustration.png
 ---
 
