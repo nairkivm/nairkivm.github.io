@@ -32,17 +32,20 @@ full-width: true
 }
 .project {
   /* This is the container for each project */
-  width: 600px;
+  width: 400px;
   height: 200px;
   margin: 10px;
   border: 1px solid black;
   box-shadow: 5px 5px 5px grey;
+  overflow: hidden;
 }
 .project img {
   /* This is the image for each project */
-  width: 600px;
-  height: 600px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
 }
 .project p {
   /* This is the text for each project */
