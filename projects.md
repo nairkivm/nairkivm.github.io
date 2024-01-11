@@ -46,9 +46,8 @@ full-width: true
 }
 .project p {
   /* This is the text for each project */
-  font-size: 18px;
+  font-size: 11px;
   text-align: center;
-  overflow: hidden;
 }
 </style>
 
@@ -72,9 +71,7 @@ full-width: true
         {% endcapture %}
         {% assign thumbnail=thumbnail | strip %}
         <a href="{{ project.url | absolute_url }}" aria-label="Thumbnail">
-            <div style="max-width: 100%; max-height: 90%; object-fit: cover;">
-              <img src="{{ project.cover-img | absolute_url }}" alt="Project Thumbnail">
-            </div>
+            <img src="{{ project.cover-img | absolute_url }}" alt="Project Thumbnail">
         </a>
         <p>{{ project.title | strip_html }}</p>
     </div>
