@@ -32,7 +32,7 @@ full-width: true
 }
 .project {
   /* This is the container for each project */
-  width: 900px;
+  width: 600px;
   height: 400px;
   margin: 10px;
   border: 1px solid black;
@@ -72,7 +72,7 @@ full-width: true
         {% endcapture %}
         {% assign thumbnail=thumbnail | strip %}
         <a href="{{ project.url | absolute_url }}" aria-label="Thumbnail">
-            <div style="width: 100%; height: 90%; object-fit: cover;">
+            <div style="max-width: 100%; max-height: 90%; object-fit: cover;">
               <img src="{{ project.cover-img | absolute_url }}" alt="Project Thumbnail">
             </div>
         </a>
