@@ -33,11 +33,10 @@ full-width: true
 .project {
   /* This is the container for each project */
   width: 600px;
-  height: 400px;
+  height: 200px;
   margin: 10px;
   border: 1px solid black;
   box-shadow: 5px 5px 5px grey;
-  overflow: hidden;
 }
 .project img {
   /* This is the image for each project */
@@ -49,6 +48,7 @@ full-width: true
   /* This is the text for each project */
   font-size: 18px;
   text-align: center;
+  overflow: hidden;
 }
 </style>
 
