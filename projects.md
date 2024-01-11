@@ -72,11 +72,13 @@ full-width: true
         {% endcapture %}
         {% assign thumbnail=thumbnail | strip %}
         <a href="{{ project.url | absolute_url }}" aria-label="Thumbnail">
-            <div style="width: 100%; height: 70%; object-fit: cover;">
+            <div style="width: 100%; height: 80%; object-fit: cover;">
               <img src="{{ project.cover-img | absolute_url }}" alt="Project Thumbnail">
             </div>
         </a>
-        <p>{{ project.title | strip_html }}</p>
+        <div style="inline-size: 500px;">
+          <p>{{ project.title | strip_html }}</p>
+        </div>
     </div>
     {% endfor %}
   </div>
