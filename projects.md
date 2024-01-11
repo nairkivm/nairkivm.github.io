@@ -37,6 +37,7 @@ full-width: true
   margin: 10px;
   border: 1px solid black;
   box-shadow: 5px 5px 5px grey;
+  overflow: hidden;
 }
 .project img {
   /* This is the image for each project */
