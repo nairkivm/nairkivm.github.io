@@ -40,8 +40,8 @@ full-width: true
 }
 .project img {
   /* This is the image for each project */
-  width: 100%;
-  height: 100%;
+  width: 600px;
+  height: 600px;
   object-fit: cover;
 }
 .project p {
