@@ -24,7 +24,7 @@ full-width: true
   display: flex; /* This makes the projects align horizontally */
   overflow-x: auto; /* This makes the projects scrollable horizontally */
   width: 100%;
-  height: 300px;
+  height: 400px;
   margin: 10px;
   padding: 10px;
   scroll-behavior: smooth; /* This makes the scrolling smooth */
@@ -32,8 +32,8 @@ full-width: true
 }
 .project {
   /* This is the container for each project */
-  width: 600px;
-  height: 200px;
+  width: 900px;
+  height: 400px;
   margin: 10px;
   border: 1px solid black;
   box-shadow: 5px 5px 5px grey;
@@ -72,13 +72,11 @@ full-width: true
         {% endcapture %}
         {% assign thumbnail=thumbnail | strip %}
         <a href="{{ project.url | absolute_url }}" aria-label="Thumbnail">
-            <div style="width: 100%; height: 80%; object-fit: cover;">
+            <div style="width: 100%; height: 90%; object-fit: cover;">
               <img src="{{ project.cover-img | absolute_url }}" alt="Project Thumbnail">
             </div>
         </a>
-        <div style="inline-size: 500px;">
-          <p>{{ project.title | strip_html }}</p>
-        </div>
+        <p>{{ project.title | strip_html }}</p>
     </div>
     {% endfor %}
   </div>
