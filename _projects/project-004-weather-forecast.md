@@ -12,15 +12,14 @@ cover-img: /assets/img/project-004/ilustrasi-cuaca-kupang-ntt.jpeg
 > - Database System : PostgreSQL
 > - Container : Docker
 > - App Deployment & Dashboard : Streamlit
+>
 > Project : [_https://github.com/nairkivm/weather-forecast_](https://github.com/nairkivm/weather-forecast)
 
-</br>
+<br>
 
 <style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+figure {
+  display: inline-block;
   text-align: center
 }
 </style>
@@ -28,7 +27,7 @@ img {
 <figure>
     <img src="/assets/img/project-004/weather-forecast-architecture.drawio.png"
          alt="weather-forecast-architecture" style="width:60%;">
-    <figcaption>"weather-forecast Architecture.</figcaption>
+    <figcaption>weather-forecast Architecture.</figcaption>
 </figure>
 
 This is an end-to-end data engineering project that extracts weather forecast data from [BMKG](https://www.bmkg.go.id/en.html) (Indonesian agency for meteorology, climatology, and geophysics), stores it in a local database, and feeds the data into a dashboard. I built this entirely in [Python](https://www.python.org/). 
