@@ -59,7 +59,7 @@ After that, I used [Streamlit](https://docs.streamlit.io/), an app framework in 
   }
   #scaled-frame {
     width: 1000px;
-    height: 2000px;
+    height: 1000px;
     border: 0px;
   }
   #scaled-frame {
@@ -81,8 +81,6 @@ After that, I used [Streamlit](https://docs.streamlit.io/), an app framework in 
 <div id="wrap">
   <iframe id="scaled-frame"
     src="https://nairkivm-weather-forecast-weather-forecast-dashboard.streamlit.app/?embed=true"
-    height="900"
-    style="width:100%;"
   ></iframe>
 </div>
 
