@@ -4,34 +4,50 @@ title: "#004 : Weather Forecast"
 cover-img: /assets/img/project-004/ilustrasi-cuaca-kupang-ntt.jpeg
 ---
 
-In this project, I want to implement not only advanced spreadsheet formulas, but also [Google App Scripts](https://www.google.com/script/start/) in data operations. In simple terms, it is a tool that allows you to write code based on JavaScript that interacts with Google Workspace applications like Google Sheets, Google Docs, and Google Forms. One of many use case to implement Google App Script is making a form, directly in a Google Sheet file. Let's say that I have an Indonesian-traditional cake store and I want to make the order form goes like this.
+> #### The tools that I used:
+> - Extract data : Google Sheets
+> - Workflow Management : Apache Airflow
+> - Data cleaning & manipulation : Pandas
+> - Database Connection : Psycopg2
+> - Database System : PostgreSQL
+> - Container : Docker
+> - App Deployment & Dashboard : Streamlit
 
-<video width="720" controls>
-  <source src="/assets/img/project-003/GCHnnz-bsAAW76K_vid.mp4" type="video/mp4">
-</video>
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center
+}
+</style>
 
-This is the flow of using this form:
-1. An admin input customer orders from "Order Form" ("Form Pemesanan") sheets. They must fills the customer information (maybe we want to make CRM system later), the delivery method, the delivery date, and the order details. I add data validation and ```XLOOKUP``` formula so the admin can easily select the menu and when it's done, it shows up the image and the price immediately.
-2. If the admin is incovenient when selecting the menu one-by-one, they can press "Tampilkan Semua Menu" button to show up all menu, so they only input the quantity of order from each menu.
-3. After completing all necessary fields, they can send the form to the _"database"_ using "Masukkan Form" button.
-4. When the admin want to input a new order, they can reset the table by pressing "Reset Tabel" button.
+<figure>
+    <img src="https://github.com/nairkivm/weather-forecast/blob/main/resources/weather-forecast-architecture.drawio.png"
+         alt="weather-forecast-architecture" style="width:60%;">
+    <figcaption>"weather-forecast Architecture.</figcaption>
+</figure>
 
-When the form is sent, they immediately goes into "Data Pemesanan" sheet. This is just like a raw data that freshly extracted from a source, so I "normalize" the data by cleaning it and normalized it.
+This is an end-to-end data engineering project that extracts weather forecast data from [BMKG](https://www.bmkg.go.id/en.html) (Indonesian agency for meteorology, climatology, and geophysics), stores it in a local database, and feeds the data into a dashboard. I built this entirely in [Python](https://www.python.org/). 
 
-![Data Pemesanan aka "Order Details"](/assets/img/project-003/GCHoO4jacAAzYSB.jpeg)
+To extract the data, I wanted to use [BMKG's API](https://api.bmkg.go.id/prakiraan-cuaca), but it was blocked and their [website](https://data.bmkg.go.id/prakiraan-cuaca/) prevented scraping. So, I found a workaround using ["IMPORTHTML"](https://support.google.com/docs/answer/3093339?hl=en) and ["IMPORTXML"](https://support.google.com/docs/answer/3093342?hl=en) formulas from Google Sheets (I don't know why web scraping doesn't work, but this Google Sheets formula trick does). Here's the [link](https://docs.google.com/spreadsheets/d/1DZdXexhve4Bih_MYW04PYrbKum8luXvgCZBucWtnFf4/copy) to copy the Google Sheets file.
 
-"Data Pemesanan" or "Order Details" sheet can be normalized into "Transactions", "Customer", and "Menu". The "Menu" table is independent from the user input, so I have already prepared it before any orders enter.
+<figure>
+    <img src="https://github.com/nairkivm/weather-forecast/blob/main/resources/weather-forecast-dag.png"
+         alt="weather-forecast-dag" style="width:60%;">
+    <figcaption>"weather-forecast DAG.</figcaption>
+</figure>
 
-![Menu table](/assets/img/project-003/GCHpuRaa0AAY-fA.jpeg)
+After I extracted the data, I stored the raw data into a data warehouse. I was afraid to use [S3](https://aws.amazon.com/s3/) storage (because they can charge me if I'm careless), so I just stored the data locally. And then, I processed the raw data into clean data, heavily utilizing the [pandas](https://pandas.pydata.org/) module, and stored it in a database (that also ran on my local PostgreSQL server). I used the [psycopg2](https://www.psycopg.org/docs/) module to connect [PostgreSQL](https://www.postgresql.org/docs/) and Python. I created a scheduled workflow of extract-load-transform data daily using [Apache Airflow](https://airflow.apache.org/docs/), run inside a [Docker](https://docs.docker.com/) container. 
 
-I also add "Void" sheet with "Void" button and _filter view_ to allow admin makes some orders invalid. This is necessary because there are human errors and "test" orders. 
+After that, I used [Streamlit](https://docs.streamlit.io/), an app framework in Python, to display a dashboard showing the weather forecast and the temperature of Kab. Kupang, NTT. Initially, I wanted to connect the app with the database, but I ran my database locally, so it was unsafe and unreliable. For displaying purposes, the data source came from this project directory.
 
-![Void feature](/assets/img/project-003/GCHppKxbkAA1giP.jpeg)
+<iframe
+  src="https://nairkivm-weather-forecast-weather-forecast-dashboard.streamlit.app/?embed=true"
+  height="450"
+  style="width:80%;"
+></iframe>
 
-By the way, why do I bother to do all of this stuff when Google Form exists? There are several reasons:
-1. Google Form has some limitations when it comes to customizing the appearance of a form. For instance, the layout or buttons may not be as flexible as one would like.
-2. User convenience. Perhaps the admin who inputs the form wants to immediately know the order results, they can simply scroll or switch sheets without having to switch between applications.
-
-Overall, I think an order form like this can be reliable for small businesses and home-based businesses that don’t require many advanced features and prioritize the ease of use. However, it should be modified for data security.  
-
-If you want to check the script and the spreadsheet file, you can copy it from this [link](https://docs.google.com/spreadsheets/d/1FPEgTdrLNy4CKX8Otn0NrdKs6UIPYQs4QXCALHydr74/copy). Cheers!
+Trivia: 
+1. This was just a sample project, so the dataset was small. I deliberately chose a location and omitted other metrics, like humidity, wind direction, etc. 
+2. I chose Kab. Kupang, NTT because that is a city where the Indonesian National Observatory (at Mount Timau) takes place, so this dashboard could be used to track the weather for astronomy observation purpose.

@@ -52,15 +52,15 @@ round-avatar: true
 social-network-links:
   email: "mohfikri.aulyanor@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: "Mohammad Fikri Aulya Nor"
+  facebook: "mohammadfikri.aulyanor"
   github: "nairkivm"
-  twitter: "@nairkivm"
+  twitter: "nairkivm"
   # youtube: "Fikri Aulyanor"
-  linkedin: "Fikri Aulyanor"
+  linkedin: "fikri-aulyanor"
   instagram: "nairkivm"
   # telephone: +14159998888
-  kaggle: "Fikri Aulyanor"
-  hackerrank: "@mohfikri_aulyan1"
+  # kaggle: "Fikri Aulyanor"
+  # hackerrank: "@mohfikri_aulyan1"
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
