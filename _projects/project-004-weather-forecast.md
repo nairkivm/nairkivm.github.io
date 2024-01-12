@@ -26,7 +26,7 @@ figure {
 
 <figure>
     <img src="/assets/img/project-004/weather-forecast-architecture.drawio.png"
-         alt="weather-forecast-architecture" style="width:60%;">
+         alt="weather-forecast-architecture" style="width:100%;">
     <figcaption>weather-forecast Architecture.</figcaption>
 </figure>
 
@@ -36,11 +36,17 @@ To extract the data, I wanted to use [BMKG's API](https://api.bmkg.go.id/prakira
 
 <figure>
     <img src="/assets/img/project-004/weather-forecast-dag.png"
-         alt="weather-forecast-dag" style="width:60%;">
-    <figcaption>"weather-forecast DAG.</figcaption>
+         alt="weather-forecast-dag" style="width:100%;">
+    <figcaption>weather-forecast DAG.</figcaption>
 </figure>
 
 After I extracted the data, I stored the raw data into a data warehouse. I was afraid to use [S3](https://aws.amazon.com/s3/) storage (because they can charge me if I'm careless), so I just stored the data locally. And then, I processed the raw data into clean data, heavily utilizing the [pandas](https://pandas.pydata.org/) module, and stored it in a database (that also ran on my local PostgreSQL server). I used the [psycopg2](https://www.psycopg.org/docs/) module to connect [PostgreSQL](https://www.postgresql.org/docs/) and Python. I created a scheduled workflow of extract-load-transform data daily using [Apache Airflow](https://airflow.apache.org/docs/), run inside a [Docker](https://docs.docker.com/) container. 
+
+<figure>
+    <img src="/assets/img/project-004/weather-forecast-erd.png"
+         alt="weather-forecast-erd" style="width:100%;">
+    <figcaption>weather-forecast ERD for the database.</figcaption>
+</figure>
 
 After that, I used [Streamlit](https://docs.streamlit.io/), an app framework in Python, to display a dashboard showing the weather forecast and the temperature of Kab. Kupang, NTT. Initially, I wanted to connect the app with the database, but I ran my database locally, so it was unsafe and unreliable. For displaying purposes, the data source came from this project directory.
 
@@ -75,7 +81,6 @@ After that, I used [Streamlit](https://docs.streamlit.io/), an app framework in 
 <div id="wrap">
   <iframe id="scaled-frame"
     src="https://nairkivm-weather-forecast-weather-forecast-dashboard.streamlit.app/?embed=true"
-    height="450"
     style="width:100%;"
   ></iframe>
 </div>
