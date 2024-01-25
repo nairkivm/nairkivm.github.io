@@ -54,10 +54,10 @@ social-network-links:
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   facebook: "mohammadfikri.aulyanor"
   github: "nairkivm"
-  twitter: "nairkivm"
+  # twitter: "nairkivm"
   # youtube: "Fikri Aulyanor"
   linkedin: "fikri-aulyanor"
-  instagram: "nairkivm"
+  # instagram: "nairkivm"
   # telephone: +14159998888
   # kaggle: "Fikri Aulyanor"
   # hackerrank: "@mohfikri_aulyan1"
