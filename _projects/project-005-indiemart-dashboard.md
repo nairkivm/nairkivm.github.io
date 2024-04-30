@@ -32,7 +32,7 @@ The data size is about 2 GB when I was starting this project, a relatively big d
 Finally, I used ```Streamlit``` to display the dashboard, showing general descriptions of the products (item, category, and source counts) and some statistics on the top. On the bottom part, there are some details about comparison between the two souces and display of the product details.
 
 <figure>
-    <img src="/assets/img/project-005/indiemart-dashboard-preview.png" alt="indiemart-dashboard-preview-general" style="width:100%;">
+    <img src="/assets/img/project-005/indiemart-dashboard-preview-1.png" alt="indiemart-dashboard-preview-general" style="width:100%;">
     <figcaption>Indiemart dashboard preview (General).</figcaption>
 </figure>
 
