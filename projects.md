@@ -48,7 +48,7 @@ full-width: true
   /* This is the text for each project */
   font-size: 11px;
   text-align: center;
-  padding: 0 10px;
+  padding: 0 60px;
 }
 </style>
 
