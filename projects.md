@@ -44,11 +44,6 @@ full-width: true
   height: 100%;
   object-fit: cover;
 }
-.project p {
-  /* This is the text for each project */
-  font-size: 11px;
-  text-align: center;
-}
 </style>
 
 <div class="container">
