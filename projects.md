@@ -74,7 +74,7 @@ full-width: true
         <a href="{{ project.url | absolute_url }}" aria-label="Thumbnail">
             <img src="{{ project.cover-img | absolute_url }}" alt="Project Thumbnail">
         </a>
-        <p>{{ project.title | strip_html }}</p>
+        <!-- <p>{{ project.title | strip_html }}</p> -->
     </div>
     {% endfor %}
   </div>
