@@ -38,7 +38,7 @@ full-width: true
   border: 1px solid black;
   box-shadow: 5px 5px 5px grey;
 }
-.project img {
+.project a img {
   /* This is the image for each project */
   width: 100%;
   height: 100%;
