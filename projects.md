@@ -48,6 +48,7 @@ full-width: true
   /* This is the text for each project */
   font-size: 11px;
   text-align: center;
+  padding: 0 10px;
 }
 </style>
 
@@ -73,22 +74,7 @@ full-width: true
         <a href="{{ project.url | absolute_url }}" aria-label="Thumbnail">
             <img src="{{ project.cover-img | absolute_url }}" alt="Project Thumbnail">
         </a>
-        <p>
-          <script>
-            const projectTitle = "{{ project.title | strip_html }}"; // Get the project title
-            const desiredLength = 30; // Desired length for each title
-
-            // Calculate padding
-            const padding = Math.max(0, (desiredLength - projectTitle.length) / 2);
-            const leftPadding = " ".repeat(Math.floor(padding));
-            const rightPadding = " ".repeat(Math.ceil(padding));
-
-            // Apply padding and truncate if necessary
-            const centeredTitle = (leftPadding + projectTitle + rightPadding).slice(0, desiredLength);
-
-            document.write(centeredTitle);
-          </script>
-        </p>
+        <p>{{ project.title | strip_html }}</p>
     </div>
     {% endfor %}
   </div>
