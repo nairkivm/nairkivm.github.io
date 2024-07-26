@@ -13,7 +13,7 @@ cover-img: /assets/img/project-006/bookstore-scraping.jpeg
 
 <br>
 
-One day, you are hired to gather information about books that your uncle wants to sell at his new bookstore. As you delve into this task, you begin collecting data on book titles, prices, and other relevant details. However, you don't want to engage in the tedious process of copying and pasting back and forth between the web and your spreadsheet, do you?
+One day, yyou are hired to gather information about books that your uncle wants to sell at his new bookstore. As you delve into this task, you begin collecting data on book titles, prices, and other relevant details. However, you don't want to engage in the tedious process of copying and pasting back and forth between the web and your spreadsheet, do you?
 
 Don't worry, I got your back! I built this project for you to automatically fetch all the data that you want and store the data in an ```SQLite``` database with just one click!
 
