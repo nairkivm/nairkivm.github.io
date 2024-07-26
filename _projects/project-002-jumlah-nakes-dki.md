@@ -1,7 +1,6 @@
 ---
 layout: page
-# title: "#001 : European History Viewer"
-title: "#002 : Medical Workers\nin Jakarta"
+title: "#002 : Medical Workers in Jakarta"
 cover-img: /assets/img/project-002/nakes-bing-illustration.png
 ---
 

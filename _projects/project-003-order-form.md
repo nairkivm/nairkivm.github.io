@@ -1,7 +1,6 @@
 ---
 layout: page
-# title: "#001 : European History Viewer"
-title: "#003 : Order Form       "
+title: "#003 : Order Form"
 cover-img: /assets/img/project-003/penjual-kue-bing-illustration.png
 ---
 
