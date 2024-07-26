@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "#001 : European History Viewer"
+title: "#001 : European\nHistory Viewer"
 cover-img: https://genealogy.webonizer.net/media/1/image/jpeg/original/17_europe_13th_century.jpg
 ---
 
