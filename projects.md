@@ -13,26 +13,22 @@ full-width: true
   margin: 0;
   padding: 0;
 }
-.title {
-  /* This is the title of the page */
-  font-size: 36px;
-  text-align: center;
-  margin: 20px;
-}
 .projects {
   /* This is the container for the projects */
   display: flex; /* This makes the projects align horizontally */
-  overflow-x: auto; /* This makes the projects scrollable horizontally */
-  width: 100%;
-  height: 400px;
+  flex-wrap: wrap; /* This makes the projects wrapped when exceeding maximum width */
+  overflow-y: auto; /* This makes the projects scrollable vertically */
+  width: 110%;
+  height: 500px;
   margin: 10px;
-  padding: 10px;
+  padding: 50px;
+  gap: 40px;
   scroll-behavior: smooth; /* This makes the scrolling smooth */
   white-space: nowrap;
 }
 .project {
   /* This is the container for each project */
-  width: 600px;
+  flex: 0 0 calc(27%);
   height: 200px;
   margin: 10px;
   border: 1px solid black;
@@ -48,12 +44,15 @@ full-width: true
   /* This is the text for each project */
   font-size: 11px;
   text-align: center;
-  padding: 0 30px;
+  padding: 0 calc(20%);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 300px;
 }
 </style>
 
 <div class="container">
-  <h1 class="title"></h1>
   <div class="projects">
     <!-- This is where you add your projects -->
     {% for project in site.projects %}
