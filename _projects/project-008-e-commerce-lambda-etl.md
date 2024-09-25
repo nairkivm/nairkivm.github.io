@@ -20,14 +20,14 @@ In the world of data engineering, the Lambda architecture stands out as a robust
 
 <figure style="text-align: center;">
     <img src="/assets/img/project-008/e-commerce-alibaba-system-diagram.png" alt="System design of this project, adopting Lambda Architecture" style="width:100%;">
-    <figcaption>System design of this project, adopting Lambda Architecture.</figcaption>
+    <figcaption style="font-size: 0.8em;">System design of this project, adopting Lambda Architecture.</figcaption>
 </figure>
 
 ## Part I: Batch Processing
 
 <figure style="text-align: center;">
     <img src="/assets/img/project-008/e-commerce-alibaba-sales-data.png" alt="Entity relationship diagram of the 'sales' data in the destination schema" style="width:100%;">
-    <figcaption>Entity relationship diagram of the 'sales' data in the destination schema.</figcaption>
+    <figcaption style="font-size: 0.8em;">Entity relationship diagram of the 'sales' data in the destination schema.</figcaption>
 </figure>
 
 The batch processing component of this ETL project is designed to handle “sales” data. Using Pandas, we extract data from text files, transform it, and load it into Google BigQuery. This process ensures that large volumes of historical data are processed efficiently, providing a solid foundation for business analytics. For every step in this process, there is a data validation method so that the final result must meet all data requirements.
@@ -36,26 +36,26 @@ The batch processing component of this ETL project is designed to handle “sale
 
 <figure style="text-align: center;">
     <img src="/assets/img/project-008/e-commerce-alibaba-source-erd.png" alt="Entity relationship diagram of the source data" style="width:100%;">
-    <figcaption>Entity relationship diagram of the source data.</figcaption>
+    <figcaption style="font-size: 0.8em;">Entity relationship diagram of the source data.</figcaption>
 </figure>
 
 - Transformation: Using Pandas, the data is cleaned, aggregated, and transformed to meet the analytical requirements.
 
 <figure style="text-align: center;">
     <img src="/assets/img/project-008/e-commerce-alibaba-transformation-log.png" alt="Example of transform subprocess log" style="width:100%;">
-    <figcaption>Example of transform subprocess log.</figcaption>
+    <figcaption style="font-size: 0.8em;">Example of transform subprocess log.</figcaption>
 </figure>
 
 - Loading: The transformed data is then loaded into Google BigQuery, where it can be queried and analyzed.
 
 <figure style="text-align: center;">
     <img src="/assets/img/project-008/e-commerce-alibaba-airflow-dag.png" alt="The DAG of overall ETL process to 'fact_order_details' table" style="width:100%;">
-    <figcaption>The DAG of overall ETL process to 'fact_order_details' table.</figcaption>
+    <figcaption style="font-size: 0.8em;">The DAG of overall ETL process to 'fact_order_details' table.</figcaption>
 </figure>
 
 <figure style="text-align: center;">
     <img src="/assets/img/project-008/e-commerce-alibaba-load-result.png" alt="Preview data of the load subprocess result" style="width:100%;">
-    <figcaption>Preview data of the load subprocess result.</figcaption>
+    <figcaption style="font-size: 0.8em;">Preview data of the load subprocess result.</figcaption>
 </figure>
 
 ## Part II: Stream Processing
@@ -64,14 +64,14 @@ The stream processing component focuses on real-time data, specifically “custo
 
 <figure style="text-align: center;">
     <img src="/assets/img/project-008/e-commerce-alibaba-cart-and-availaibility-data.png" alt="Entity relationship diagram of the 'customer cart' and 'vendor availability' data in the destination schema" style="width:100%;">
-    <figcaption>Entity relationship diagram of the 'customer cart' and 'vendor availability' data in the destination schema.</figcaption>
+    <figcaption style="font-size: 0.8em;">Entity relationship diagram of the 'customer cart' and 'vendor availability' data in the destination schema.</figcaption>
 </figure>
 
 Real-time data from various sources such as customer interactions and vendor updates is simulated using Kafka Producer and then ingested using Kafka Consumer. Every single message or data is then processed with Python utilities (and Pandas) and loaded into BigQuery, ensuring that it is available for immediate analysis and action. Vendors can monitor product availability and customer behavior in real-time, enabling quick decision-making.
 
 <figure style="text-align: center;">
     <img src="/assets/img/project-008/e-commerce-alibaba-kafka-log.png" alt="Example of stream process log" style="width:100%;">
-    <figcaption>Example of stream process log.</figcaption>
+    <figcaption style="font-size: 0.8em;">Example of stream process log.</figcaption>
 </figure>
 
 ## Part III: Integrating Lambda Architecture and dbt
@@ -80,17 +80,17 @@ Combining batch and stream processing, this ETL project embodies the Lambda arch
 
 <figure style="text-align: center;">
     <img src="/assets/img/project-008/e-commerce-alibaba-docker.png" alt="Overall images on the container that run batch process (Apache Airflow and dbt services) and stream process (Zookeeper, Kafka, producer, and etl-stream)" style="width:100%;">
-    <figcaption>Overall images on the container that run batch process (Apache Airflow and dbt services) and stream process (Zookeeper, Kafka, producer, and etl-stream).</figcaption>
+    <figcaption style="font-size: 0.8em;">Overall images on the container that run batch process (Apache Airflow and dbt services) and stream process (Zookeeper, Kafka, producer, and etl-stream).</figcaption>
 </figure>
 
 <figure style="text-align: center;">
     <img src="/assets/img/project-008/e-commerce-alibaba-dbt-model.png" alt="The dbt models implemented in this project as an extension after data load process. The dbt is also integrated with the Apache Airflow orchestration." style="width:100%;">
-    <figcaption>The dbt models implemented in this project as an extension after data load process. The dbt is also integrated with the Apache Airflow orchestration.</figcaption>
+    <figcaption style="font-size: 0.8em;">The dbt models implemented in this project as an extension after data load process. The dbt is also integrated with the Apache Airflow orchestration.</figcaption>
 </figure>
 
 <figure style="text-align: center;">
     <img src="/assets/img/project-008/e-commerce-alibaba-userrevenue-data.png" alt="The 'user_revenue' table which is the result of the dbt transformation is an example of the data served in the data market." style="width:100%;">
-    <figcaption>The 'user_revenue' table which is the result of the dbt transformation is an example of the data served in the data market.</figcaption>
+    <figcaption style="font-size: 0.8em;">The 'user_revenue' table which is the result of the dbt transformation is an example of the data served in the data market.</figcaption>
 </figure>
 
 ## Conclusion
