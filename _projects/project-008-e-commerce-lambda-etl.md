@@ -97,4 +97,4 @@ Combining batch and stream processing, this ETL project embodies the Lambda arch
 
 Implementing Lambda architecture in an ETL project offers a powerful way to manage both historical and real-time data. By combining batch processing with stream processing and leveraging tools like Pandas, Kafka, and dbt, we can create a robust data pipeline that meets the needs of modern data-driven businesses. This approach not only ensures efficient data processing but also provides valuable insights that drive business growth.
 
-> 2024-09-25
+> Posted at 2024-09-25
