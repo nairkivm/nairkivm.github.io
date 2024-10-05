@@ -142,7 +142,7 @@ In Metabase, a dashboard consists of several “questions,” which are essentia
 
 ## Analysis Report
 
-<embed src="https://nairkivm.github.io/assets/doc/metabase_dashboard_241005.pdf" type="application/pdf" style="width: 100%; height: 100%"/>
+<embed src="https://nairkivm.github.io/assets/doc/metabase_dashboard_241005.pdf" type="application/pdf" style="width: 100%; height: 500px"/>
 
 > What’s the situation with this store’s business?
 
