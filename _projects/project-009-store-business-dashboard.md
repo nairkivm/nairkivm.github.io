@@ -153,9 +153,9 @@ In Metabase, a dashboard consists of several “questions,” which are essentia
 
 ## Analysis Report
 
-<object data="https://drive.google.com/file/d/1k-VlZC9yjwnOrhIlPlk8YN4VRVf-w17C/view?usp=sharing" type="application/pdf" width="700px" height="700px">
-    <embed src="https://drive.google.com/file/d/1k-VlZC9yjwnOrhIlPlk8YN4VRVf-w17C/view?usp=sharing">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://drive.google.com/file/d/1k-VlZC9yjwnOrhIlPlk8YN4VRVf-w17C/view?usp=sharing">Download PDF</a>.</p>
+<object data="https://github.com/nairkivm/nairkivm.github.io/blob/master/assets/doc/metabase_dashboard_241005.pdf" type="application/pdf" width="100%">
+    <embed src="https://github.com/nairkivm/nairkivm.github.io/blob/master/assets/doc/metabase_dashboard_241005.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/nairkivm/nairkivm.github.io/blob/master/assets/doc/metabase_dashboard_241005.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
