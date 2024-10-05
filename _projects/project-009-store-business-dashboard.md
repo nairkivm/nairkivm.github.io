@@ -57,7 +57,7 @@ set rating = 0
 where rating = 3 and random() < 0.5;
 ```
 
-</details> </br>
+</details> <br>
 
 I also added `latitude`, `longitude`, and `age` columns to `users` table.
 
