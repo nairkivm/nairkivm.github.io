@@ -153,10 +153,7 @@ In Metabase, a dashboard consists of several “questions,” which are essentia
 
 ## Analysis Report
 
-<object data="https://github.com/nairkivm/nairkivm.github.io/blob/master/assets/doc/metabase_dashboard_241005.pdf" type="application/pdf" width="100%">
-    <embed src="https://github.com/nairkivm/nairkivm.github.io/blob/master/assets/doc/metabase_dashboard_241005.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/nairkivm/nairkivm.github.io/blob/master/assets/doc/metabase_dashboard_241005.pdf">Download PDF</a>.</p>
-    </embed>
+<object data="https://github.com/nairkivm/nairkivm.github.io/blob/47f898e5e7ed2be5fa064d7866638f35c4f45301/assets/doc/metabase_dashboard_241005.pdf" type="application/pdf" width="100%">
 </object>
 
 > What’s the situation with this store’s business?
