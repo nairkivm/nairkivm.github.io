@@ -37,9 +37,6 @@ You can explore these questions by enrolling in their course (no paid endorsemen
 
 I loaded the [data]((https://storage.googleapis.com/dqlab-dataset/dataset%20lomba%204%20sept%202020.zip)) into my local PostgreSQL database and made some modifications. I added `rating` column to `orders` table.
 
-<details>
-
-<summary> <i>See the query</i> </summary>
 
 ```sql
 -- Add 'rating' column
@@ -57,13 +54,7 @@ set rating = 0
 where rating = 3 and random() < 0.5;
 ```
 
-</details> <br>
-
 I also added `latitude`, `longitude`, and `age` columns to `users` table.
-
-<details>
-
-<summary> <i>Lihat query</i> </summary>
 
 ```sql
 -- Add 'latitude' & 'longitude' columns
@@ -138,8 +129,6 @@ set age =  floor(18 + (random()^1.2 * ( 63 - 18 )))
 where age >= 49;
 ```
 
-</details>
-
 ## Building Analysis Report
 
 I created the analysis report based on the [Metabase](https://www.metabase.com/) example dashboard as a reference. The dashboard is divided into four pages: 
@@ -153,8 +142,7 @@ In Metabase, a dashboard consists of several “questions,” which are essentia
 
 ## Analysis Report
 
-<object data="https://github.com/nairkivm/nairkivm.github.io/blob/47f898e5e7ed2be5fa064d7866638f35c4f45301/assets/doc/metabase_dashboard_241005.pdf" type="application/pdf" width="100%">
-</object>
+<embed src="https://github.com/nairkivm/nairkivm.github.io/blob/master/assets/doc/metabase_dashboard_241005.pdf" type="application/pdf" />
 
 > What’s the situation with this store’s business?
 
