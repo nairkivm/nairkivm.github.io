@@ -17,7 +17,7 @@ cover-img: /assets/img/project-010/illustration.png
 
 ## Introduction
 
-As part of my final data project in the data science course from (Dicoding)[https://www.dicoding.com/], I conducted an end-to-end data analysis for an e-commerce platform and created a comprehensive dashboard. Here’s a step-by-step explanation of how I approached the analysis.
+As part of my final data project in the data science course from [Dicoding](https://www.dicoding.com/), I conducted an end-to-end data analysis for an e-commerce platform and created a comprehensive dashboard. Here’s a step-by-step explanation of how I approached the analysis.
 
 ## First: Define the Business Questions
 
