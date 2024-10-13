@@ -88,7 +88,7 @@ In this stage, a thorough analysis is conducted to address the business problems
 <style>
   #wrap {
     width: 750px;
-    height: 1500px;
+    height: 900px;
     padding: 0;
     overflow: hidden;
   }
