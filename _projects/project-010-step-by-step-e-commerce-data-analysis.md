@@ -119,7 +119,7 @@ In this stage, a thorough analysis is conducted to address the business problems
   ></iframe>
 </div>
 
-## Last: Drawing Conclusion and Publish the Result
+## Last: Drawing Conclusion and Publishing the Result
 
 The conclusions must address all the questions and objectives defined earlier. Furthermore, the findings or insights from the analysis need to be shared through various means, such as reports, slide decks, and presentations.
 
