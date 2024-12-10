@@ -56,7 +56,7 @@ full-width: true
   <div class="projects">
     <!-- This is where you add your projects -->
     {% assign sorted_projects = site.projects | sort: 'title' | reverse %}
-    {% for project in site.projects %}
+    {% for project in sorted_projects %}
     <div class="project">
         {%- capture thumbnail -%}
             {% if project.thumbnail-img %}
