@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "#012 : Classification from Clustering Result"
-cover-img: /assets/img/project-011/illustration.png
+cover-img: /assets/img/project-012/illustration.png
 ---
 
 > #### Key tools/skills:
@@ -9,6 +9,9 @@ cover-img: /assets/img/project-011/illustration.png
 > - Jupyter Notebook and Python as a data analysis tool
 > - Data Analysis
 > - Data Visualization
+> - Classification algorithm: KNN, LR, DT, RF, SVM, NB
+> - Model evaluation: Confusion matrix, Learning curve, etc
+> - Hyperparemeter tuning: GridSearchCV
 
 > Project : [_https://github.com/nairkivm/classification-from-clustering-people_](https://github.com/nairkivm/classification-from-clustering-people)
 
