@@ -14,13 +14,15 @@ In this project, I built a simple yet powerful image classification model that c
 
 ## Dataset:
 [Dog and Cat Classification Dataset – Kaggle](https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset)
+
 This dataset contains 12,000+ images of cats and 12,000+ images of dogs.
 
 ## Step-by-Step Workflow
 
-1. Data Preparation
+### 1. Data Preparation
 
 I started by downloading and extracting the dataset, which contained images of dogs and cats. I wrote a small script to:
+
  - Preview sample images
  - Organize them into folders (/Dog, /Cat)
  - Count them (around 12,000 images per category initially)
@@ -30,7 +32,7 @@ I started by downloading and extracting the dataset, which contained images of d
     <figcaption style="font-size: 0.8em;">Preview of the datasets.</figcaption>
 </figure>
 
-1. Data Augmentation
+### 2. Data Augmentation
 
 To improve generalization and prevent overfitting, I applied image augmentation using Keras’ ImageDataGenerator:
 
@@ -40,13 +42,13 @@ To improve generalization and prevent overfitting, I applied image augmentation 
 
 This expanded the dataset to ~14,000 images per category, improving the diversity of training examples.
 
-3. Data Splitting
+### 3. Data Splitting
 
 I split the dataset using an 80:20 ratio:
 - 80% for training (with 20% of this used for validation)
 - 20% for testing
 
-4. Model Building
+### 4. Model Building
 
 I built the model using a Sequential CNN architecture. Here's a brief overview of important layers:
 
@@ -58,7 +60,7 @@ I built the model using a Sequential CNN architecture. Here's a brief overview o
 
 The model was compiled with an appropriate loss function (binary_crossentropy) and optimizer (Adam).
 
-5. Training & Evaluation
+### 5. Training & Evaluation
 
 I trained the model with callbacks like:
 - EarlyStopping – to halt training when no improvement
