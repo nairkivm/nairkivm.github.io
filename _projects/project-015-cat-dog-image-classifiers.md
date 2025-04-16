@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "#015 : Cat and Dog Images Classification"
-cover-img: /assets/img/project-014/illustration.png
+cover-img: /assets/img/project-015/illustration.png
 ---
 
 > #### Key tools/skills:
