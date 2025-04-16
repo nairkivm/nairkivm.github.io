@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "#014 : Arknights Reviews Sentiment Analysis"
-cover-img: /assets/img/project-014/SentimentAnalysisResult.png.png
+cover-img: /assets/img/project-014/illustration.png
 ---
 
 > #### Key tools/skills:
